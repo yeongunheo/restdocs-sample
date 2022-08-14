@@ -1,0 +1,26 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+= Spring REST Docs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[resources-post]]
+== Post
+
+[[resources-post-create]]
+=== Post 생성
+
+==== HTTP request
+
+include::{snippets}/post-create/http-request.adoc[]
+
+==== HTTP response
+
+include::{snippets}/post-create/http-response.adoc[]
